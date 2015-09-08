@@ -8,7 +8,7 @@
 # Syntaxe: # su - -c "./nginxauto.sh"
 # Syntaxe: or # sudo ./nginxauto.sh
 #
-VERSION="1.162.01"
+VERSION="1.200"
 
 ##############################
 # NGinx version to install
@@ -158,7 +158,7 @@ fi
 
 displaytitle "Install prerequisites"
 
-# R.©cup.©ration GnuPG key pour DotDeb
+# R.Â©cup.Â©ration GnuPG key pour DotDeb
 grep -rq '^deb\ .*dotdeb' /etc/apt/sources.list.d/*.list /etc/apt/sources.list > /dev/null 2>&1
 if [ $? -ne 0 ]
 then
